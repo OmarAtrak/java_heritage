@@ -26,4 +26,10 @@ public class Voiture extends Vehicule {
     public void emettreSon() {
         System.out.println("La voiture vrombit.");
     }
+
+    @Override
+    public void afficherInformations() {
+        super.afficherInformations();
+        System.out.println("Modele: " + this.modele + ", Annee: " + this.annee);
+    }
 }

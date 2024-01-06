@@ -24,4 +24,10 @@ public class Moto extends Vehicule {
     public void emettreSon() {
         System.out.println("La moto rugit.");
     }
+
+    @Override
+    public void afficherInformations() {
+        super.afficherInformations();
+        System.out.println("Marque: " + this.marque + ", Puissance: " + this.puissance);
+    }
 }

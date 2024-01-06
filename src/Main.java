@@ -45,6 +45,7 @@ public class Main {
         voiture.setModele("Dacia");
         voiture.setAnnee(new Date());
         voiture.emettreSon();
+        voiture.afficherInformations();
 
         Moto moto = new Moto();
         moto.setNom("moto");
@@ -52,12 +53,14 @@ public class Main {
         moto.setMarque("m1");
         moto.setPuissance("p1");
         moto.emettreSon();
+        moto.afficherInformations();
 
         Avion avion = new Avion();
         avion.setNom("avion");
-        avion.setPrix(90000000);
+        avion.setPrix(900000);
         avion.setCompagnie("Ryanair");
         avion.setVitesseMax("v1");
         avion.emettreSon();
+        avion.afficherInformations();
     }
 }
