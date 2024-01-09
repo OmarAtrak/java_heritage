@@ -26,9 +26,6 @@ public class Compte {
     public double getSolde() {
         return solde;
     }
-    public void setSolde(double solde) {
-        this.solde = solde;
-    }
 
 
     // methodes
@@ -49,7 +46,7 @@ public class Compte {
         System.out.println("Numero: " + this.numero + ", Solde: " + this.solde);
     }
 
-    public void afficherNbComptes() {
+    public static void afficherNbComptes() {
         System.out.println("nombre de comptes crées: " + nbCompte);
     }
 }
